@@ -33,3 +33,13 @@ Si se hace al revés, se perderán las referencias de los sub-módulos en el rep
 ```
 docker compose up --build
 ```
+
+# PROD
+1. Clonar el repositorio
+2. Crear un .env basado en el .env.template
+3. Ejecutar el comando
+
+```
+docker compose -f docker-compose.prod.yml up --build
+```
+
